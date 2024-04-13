@@ -1,3 +1,18 @@
+# Docker Introduction
+## Why Docker
+For many years now, enterprise software has typically been deployed either on “bare metal” (i.e. installed on an operating system that has complete control over the underlying hardware) or in a virtual machine (i.e. installed on an operating system that shares the underlying hardware with other “guest” operating systems).
+Virtual machines also helped cut costs, because more VMs could be consolidated onto fewer physical machines. Legacy systems running older applications could be turned into VMs and physically decommissioned to save even more money.
+
+VMs are not able to deliver the kind of speed, agility, and savings that fast-moving businesses are demanding.
+
+Docker enables more efficient use of system resources
+	Instances of containerized apps use far less memory than virtual machines, they start up and stop more quickly
+	Save on costs of software licenses, because you need many fewer operating system instances to run the same workloads.
+
+Docker enables faster software delivery cycles
+
+Docker shines for micro services architecture
+
 ## What is a container ?
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
